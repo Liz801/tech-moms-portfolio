@@ -1,0 +1,10 @@
+#entirePage{
+    background-image: url(assets/Elegant\ 2.png);
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: none;
+    width: auto;
+}

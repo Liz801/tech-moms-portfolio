@@ -1,10 +1,17 @@
+body {
+    margin: 0;
+}
+
 #entirePage{
-    background-image: url(assets/Elegant\ 2.png);
-    height: 1000px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: cover;
-    background-repeat: none;
-    width: auto;
+    object-fit: contain;
+}
+
+.entire-page-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
